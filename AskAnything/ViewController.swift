@@ -225,7 +225,7 @@ class ViewController: UIViewController,  UITableViewDataSource, UITableViewDeleg
     
     func sendRequest(msg: String, completion: @escaping (_ fetchRole: String?, _ content: String?) -> Void) {
         // Replace "<YOUR_API_TOKEN>" with your actual ChatGPT API token
-        let apiToken = "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"
+        let apiToken = ""// replace your token here
         let apiUrl = URL(string: "https://api.openai.com/v1/chat/completions")!
         
         // Prepare the request
